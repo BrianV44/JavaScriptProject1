@@ -1,0 +1,93 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Outdoor Activities</title>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="styles.css"/>
+<meta name="viewport" content="width=device-width, inital-scale=1.0"/>
+<script src="websitejs.js" defer></script>
+</head>
+
+<body>
+<header>
+    <nav class="nav-bar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="running.html">Running</a></li>
+			<li><a href="biking.html">Biking</a></li>
+			<li><a href="canoeing.html">Canoeing</a></li>
+			<li><a href="rockClimbing.html">Rock Climbing</a></li>
+            <li><a href="webSecurity.html">Web Security</a></li>
+
+
+		</ul>
+    </nav>
+
+</header>
+<section class = "banner">
+    <h1>Enter Giveaway</h1>
+</section>
+<div class="column">
+<form>
+<fieldset class="form">
+    <div class="options">
+        <label for="bicycle">Mountain Bike</label>
+        <input type="checkbox" id="bicycle" name="bicycle" />
+    </div>
+
+    <div class="options">
+        <label for="canoe">14ft Touring Canoe</label>
+        <input type="checkbox" id="canoe" />
+    </div>
+
+    <div class="options">
+        <label for="rope">9.9 MM x 70 M Climbing Rope</label>
+        <input type="checkbox" id="rope" />
+    </div>
+
+    <div class="options">
+        <label for="vest">Running Vest with 3L bladder</label>
+        <input type="checkbox" id="vest" />
+    </div>
+
+
+
+</fieldset>
+
+
+        <fieldset id="contactInfo">
+          <label for="name">
+            Name
+            <input id="name" name="name" required type="text" />
+
+          </label>
+            <div id="warning"></div>
+
+          <label for="email">
+            Email
+            <input required type="email" id="email" name="email" />
+          </label>
+            <div id="emailWarning"></div>
+
+            <!-- selection list -->
+            <label for="selectionList">How did you find our site?</label>
+            <select id="selectionList" name="selectionList">
+                <option value="0">Select Option</option>
+                <option value="1">Regular Browsing</option>
+                <option value="2">Through a Friend</option>
+                <option value="3">Online Advertisement</option>
+                <option value="4">Radio Advertisement</option>
+            </select>
+            <input type="submit" id="submit" value="Submit" />
+
+        </fieldset>
+
+
+
+     </form>
+</div>
+<footer>
+    <a href="#" onclick="openPopup();">Open Popup</a>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+nav li {
+	margin:0;
+	padding:0;
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: #FAF9F6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li a:hover {
+  color:  #686de0;
+}
+
+nav li a {
+color: black;
+
+}
+	
+
+
+
+nav .nav-bar {
+width: 100%;
+height: 60px; 
+position: fixed; 
+top: 0;
+background: #139ed8;
+}
+
+.banner {
+height: 300px;
+width: 100%;
+background-color: #686de0;
+
+}
+
+.banner img {
+text-align: center;
+padding-left: 40%;
+height:300px;
+
+}
+
+.column {
+margin-left: 20%;
+margin-right: 20%;
+}
+
+.column h1 {
+	font-size: 4rem;
+	text-align: center;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-top:110px;
+
+}
+
+.form{
+margin-top:40px
+}
+/* styling for checkboxes */
+.options {
+   display:block;
+   font-size: 1.2em;
+   padding-bottom: 15px;
+
+  }
+
+#contactInfo label {
+display:block;
+font-size: 1.2em;
+width: 480px;
+text-align: left;
+margin-top: 10px;
+padding-bottom: 10px;
+
+}
+
+input[type="checkbox"] {
+    vertical-align: middle; /* Align checkbox with text vertically */
+
+
+}
+
+form fieldset{
+   border: none;
+   background: lightgrey;
+   position: relative;
+}
+
+#submitbutton {
+text-align:center;
+}
+
+/* table styling */
+
+#table {
+    padding-top: 20px;
+    /* auto will horizontally align table */
+    margin: 20px auto;
+
+    /* give cells nice borders */
+    border-collapse: separate;
+    border-spacing: 0;
+
+    text-align: center;
+
+}
+tr {
+    border-bottom: 1px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px; 10px;
+}
+
+/* For invalid form input */
+input:invalid {
+    background-color: lightblue;
+
+}
+
+input[type='submit'] {
+   clear: left;
+   display: block;
+   margin: 0 auto;
+   float: none;
+   font-size: 1.1em;
+   background-color: #686de0;
+   color: white;
+   padding: 3px;
+   width: 100px;
+}
+
+
+
